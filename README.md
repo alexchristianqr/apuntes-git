@@ -43,3 +43,7 @@ git reset --hard <commit> # Resetea el HEAD actual al commit especificado.
 ## Intermedio
 
 [Comandos git nivel INTERMEDIO](https://github.com/alexchristianqr/apuntes-git/blob/main/README-intermedio.md)
+
+## Avanzado
+
+[Comandos git nivel AVANZADO](https://github.com/alexchristianqr/apuntes-git/blob/main/README-avanzado.md)

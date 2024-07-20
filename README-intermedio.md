@@ -47,3 +47,7 @@ git config --global alias.co checkout # Crea un alias para el comando git checko
 # Cambiar la URL de un repositorio remoto:
 git remote set-url origin <url_github_repositorio> # Cambia la URL del repositorio remoto.
 ```
+
+## Avanzado
+
+[Comandos git nivel AVANZADO](https://github.com/alexchristianqr/apuntes-git/blob/main/README-avanzado.md)
