@@ -13,7 +13,11 @@ Todo sobre git, comandos BASICO, INTERMEDIO y AVANZADO
 ## Avanzado
 ```bash
 # Deshacer cambios:
-git reset --soft HEAD~1 # Remueve el último commit y lleva los cambios al área de preparación.
+git reset --soft <commit> # Restablece solo el puntero de la rama actual (HEAD), dejando el índice y el directorio de trabajo sin cambios. Los cambios confirmados anteriormente pero no empujados al repositorio remoto quedarán en el índice, listos para ser confirmados nuevamente si es necesario. Referencia <commit>: HEAD, HEAD~1, branch_name, commit
+git reset --soft HEAD~1 # Último commit en la rama
+git reset --soft HEAD~2 # Penultimo commit en la rama
+git reset --soft HEAD~3 # Antepenultimo commit en la rama
+git reset --hard <commit> # Restablece tanto el índice como el directorio de trabajo. Los archivos modificados pero no confirmados serán descartados. Referencia <commit>: HEAD, HEAD~1, branch_name, commit
 ```
 ```bash
 # Cleaning (limpieza de archivos no deseados):
