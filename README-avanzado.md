@@ -13,7 +13,7 @@ Todo sobre git, comandos BASICO, INTERMEDIO y AVANZADO
 ## Avanzado
 ```bash
 # Deshacer cambios:
-git reset --soft HEAD~1 # Remueve el ultimo commit y lleva los cambios al area de preparación
+git reset --soft HEAD~1 # Remueve el último commit y lleva los cambios al área de preparación.
 ```
 ```bash
 # Cleaning (limpieza de archivos no deseados):
