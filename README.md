@@ -39,3 +39,7 @@ git merge <nombre_rama> # Fusiona la rama especificada con la rama actual.
 git log # Muestra el historial de commits.
 git reset --hard <commit> # Resetea el HEAD actual al commit especificado.
 ```
+
+## Intermedio
+
+[Comandos git nivel INTERMEDIO](https://github.com/alexchristianqr/apuntes-git/blob/main/README-intermedio.md)
