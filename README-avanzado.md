@@ -1,6 +1,6 @@
 # apuntes-git
 
-Todo sobre los comamdos git: BASICO, INTERMEDIO y AVANZADO
+Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 
 ## BASICO
 
