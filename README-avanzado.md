@@ -4,11 +4,11 @@ Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 
 ## BASICO
 
-[Comandos git nivel Básico](https://github.com/alexchristianqr/apuntes-git/blob/main/README.md)
+[Comandos git nivel Básico](README.md)
 
 ## INTERMEDIO
 
-[Comandos git nivel Intermedio](https://github.com/alexchristianqr/apuntes-git/blob/main/README-intermedio.md)
+[Comandos git nivel Intermedio](README-intermedio.md)
 
 ## AVANZADO
 

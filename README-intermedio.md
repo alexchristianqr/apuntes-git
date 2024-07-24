@@ -4,7 +4,7 @@ Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 
 ## BASICO
 
-[Comandos git nivel Básico](https://github.com/alexchristianqr/apuntes-git/blob/main/README.md)
+[Comandos git nivel Básico](README.md)
 
 ## INTERMEDIO
 
@@ -58,4 +58,4 @@ git remote set-url origin <url_github_repositorio> # Cambia la URL del repositor
 
 ## AVANZADO
 
-[Comandos git nivel Avanzado](https://github.com/alexchristianqr/apuntes-git/blob/main/README-avanzado.md)
+[Comandos git nivel Avanzado](README-avanzado.md)
