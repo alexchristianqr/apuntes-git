@@ -5,6 +5,8 @@ Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 ## COMANDOS MAS UTILIZADOS
 
 ```bash
+git reset --soft HEAD~1
+git reset --soft HEAD~2
 git stash list
 git stash apply stash@{0}
 git stash save "mensaje" 
@@ -15,6 +17,8 @@ git merge [branch]
 git pull
 git commit -m "mensaje"
 git status
+git checkout .
+git add .
 ```
 
 ## BASICO
