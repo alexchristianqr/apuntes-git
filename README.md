@@ -12,10 +12,10 @@ git log --oneline
 git rebase [branch]
 
 # Crear y moverse a nueva rama.
-git checkout -b [rama]
+git checkout -b <rama>
 
 # Clonar repositorio con el último commit
-git clone --depth 1 [url]
+git clone --depth 1 <url-repository>
 
 # Deshacer el commit y regresar los cambios al area de preparación para volver a comitear
 git reset --soft HEAD~1
@@ -23,14 +23,16 @@ git reset --soft HEAD~1
 git stash save "mensaje"
 git stash list
 git stash apply stash@{0}
-git reset --hard [commit]
-git reset --soft [commit]
+git reset --hard <commit>
+git reset --soft <commit>
 git merge [branch]
 git pull
 git commit -m "mensaje"
 git status
 git checkout .
 git add .
+git remote -v
+git remote set-url origin <url-repository>
 ```
 
 ## BASICO
