@@ -5,7 +5,7 @@ Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 ## COMANDOS MAS UTILIZADOS
 
 ```bash
-# Rebase lo que hace es crear nuevos commits, es decir, afecta ek cambio del historial.
+# Rebase lo que hace es que al fusionar crea nuevos commits, es decir, afecta el cambio del historial.
 git rebase [branch] # Usar rebase cuando queremos integrar ramas features pero, usar merge cuando queremos integrar ramas features con master o dev
 git mrege --fast-forward
 git clone --depth 1 [url]
