@@ -20,6 +20,12 @@ git clone --depth 1 <url-repository>
 # Deshacer el commit y regresar los cambios al area de preparación para volver a comitear
 git reset --soft HEAD~1
 
+# Hacer un merge temporal(PULL REQUEST) en local sin generar un commit.
+git merge --no-commit --no-ff <rama>
+
+# Deshacer o salir del merge temporal
+git merge --abort
+
 git stash save "mensaje"
 git stash list
 git stash apply stash@{0}
@@ -33,8 +39,6 @@ git checkout .
 git add .
 git remote -v
 git remote set-url origin <url-repository>
-git merge --no-commit --no-ff <rama>
-git merge --abort
 ```
 
 ## BASICO
