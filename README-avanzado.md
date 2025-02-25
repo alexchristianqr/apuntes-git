@@ -14,11 +14,16 @@ Todo sobre los comandos git: BASICO, INTERMEDIO y AVANZADO
 
 ```bash
 # Deshacer cambios:
-git reset --soft <commit> # Restablece solo el puntero de la rama actual (HEAD), dejando el índice y el directorio de trabajo sin cambios. Los cambios confirmados anteriormente pero no empujados al repositorio remoto quedarán en el índice, listos para ser confirmados nuevamente si es necesario. Referencia <commit>: HEAD, HEAD~1, branch_name, commit
-git reset --soft HEAD~1 # Último commit en la rama
-git reset --soft HEAD~2 # Penultimo commit en la rama
-git reset --soft HEAD~3 # Antepenultimo commit en la rama
-git reset --hard <commit> # Restablece tanto el índice como el directorio de trabajo. Los archivos modificados pero no confirmados serán descartados. Referencia <commit>: HEAD, HEAD~1, branch_name, commit
+git reset --soft <commit> # Restablece solo el puntero de la rama actual (HEAD), dejando el índice y el directorio de trabajo sin cambios. Los cambios confirmados anteriormente pero no empujados al repositorio remoto quedarán en el índice, listos para ser confirmados nuevamente si es necesario. Referencia <commit>: HEAD, HEAD~1, branch_name, commit.
+git reset --soft HEAD~1 # Último commit en la rama.
+git reset --soft HEAD~2 # Penultimo commit en la rama.
+git reset --soft HEAD~3 # Antepenultimo commit en la rama.
+git reset --hard <commit> # Restablece tanto el índice como el directorio de trabajo. Los archivos modificados pero no confirmados serán descartados. Referencia <commit>: HEAD, HEAD~1, branch_name, commit.
+```
+
+```bash
+git merge --no-commit --no-ff <rama> # Hacer un merge temporal(PULL REQUEST) en local sin generar un commit.
+git merge --abort # Deshacer o salir del merge temporal
 ```
 
 ```bash
