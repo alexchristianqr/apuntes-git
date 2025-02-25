@@ -33,6 +33,8 @@ git checkout .
 git add .
 git remote -v
 git remote set-url origin <url-repository>
+git merge --no-commit --no-ff <rama>
+git merge --abort
 ```
 
 ## BASICO
