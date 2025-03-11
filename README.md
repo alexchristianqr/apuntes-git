@@ -39,6 +39,10 @@ git checkout .
 git add .
 git remote -v
 git remote set-url origin <url-repository>
+
+# Manipulación de commits:
+git commit --amend # Modifica el último commit (útil para cambiar el mensaje del commit o agregar archivos omitidos).
+git revert <commit> # Crea un nuevo commit que revierte los cambios de un commit anterior.
 ```
 
 ## BASICO
